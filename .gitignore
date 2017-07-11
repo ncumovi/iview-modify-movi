@@ -1,0 +1,39 @@
+# Env
+/.env
+.tags
+
+# composer
+/vendor
+composer.phar
+## remove in production!
+#composer.lock
+
+# IDE
+.idea
+nbproject
+.buildpath
+.project
+.settings
+
+# windows thumbnail cache
+Thumbs.db
+
+# Mac DS_Store Files
+.DS_Store
+
+# phpunit
+phpunit.phar
+/phpunit.xml
+
+# Vagrant
+/.vagrant
+
+node_modules
+npm-debug.log
+company/web/*/build/*
+admin/web/*/build/*
+
+#admin/controllers/StaffManageController.php
+
+.tags
+/vuevendor
